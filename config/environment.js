@@ -16,6 +16,10 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    emberPouch: {
+      localDb: 'pouchdb-auth',
+      remoteDb: 'http://localhost:5984/pouchdb-auth'
     }
   };
 
